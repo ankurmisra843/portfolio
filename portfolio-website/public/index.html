@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankur Misra | Lead Data Engineer & AI Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .gradient-text { background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md border-b border-slate-800 z-50 px-6 py-4">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <a href="#" class="flex items-center gap-2 group">
+                <!-- Inline SVG Logo (Replaces assets/logo.png) -->
+                <svg class="h-8 w-auto text-sky-400 transition-transform group-hover:scale-105" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4H9V9H4V4Z" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M15 4H20V9H15V4Z" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M9 15H15V20H9V15Z" stroke="url(#gradient)" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M6.5 9V12.5H9.5M17.5 9V12.5H14.5" stroke="#475569" stroke-width="2"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="9" y1="15" x2="15" y2="20" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#38bdf8"/>
+                            <stop offset="1" stop-color="#818cf8"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="text-lg font-bold tracking-tight text-slate-200 hidden sm:block">Ankur Misra</span>
+            </a>
+            <div class="space-x-6 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-sky-400 transition">About</a>
+                <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+                <a href="#experience" class="hover:text-sky-400 transition">Impact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="pt-32 pb-20 px-6 max-w-5xl mx-auto min-h-screen flex flex-col justify-center">
+        <p class="text-sky-400 font-mono text-sm mb-3">// Lead Data Engineer & Architect</p>
+        <h1 class="text-5xl md:text-6xl font-black tracking-tight mb-4">Ankur Misra</h1>
+        <h2 class="text-2xl md:text-3xl text-slate-400 mb-6">
+            Building scalable data infrastructure & <span class="gradient-text">Autonomous Data-to-Action Pipelines</span>.
+        </h2>
+        <p class="text-slate-400 max-w-2xl text-lg mb-8 leading-relaxed">
+            Over <span class="text-slate-200 font-semibold">10 years of experience</span> architecting high-performance ETL/ELT pipelines across Banking, Supply Chain, and E-commerce. Specialized in Microsoft Azure ecosystems, PySpark optimization, and reducing cloud compute overheads.
+        </p>
+        
+        <!-- Quick Stats Banner -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-6 bg-slate-900 border border-slate-800 rounded-xl max-w-3xl mb-8">
+            <div>
+                <p class="text-3xl font-extrabold text-sky-400">10+ Yrs</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mt-1">Data Engineering Experience</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-indigo-400">75%</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mt-1">ETL Runtime & Cost Reductions</p>
+            </div>
+            <div class="col-span-2 md:col-span-1">
+                <p class="text-3xl font-extrabold text-emerald-400">99%+</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mt-1">Production Job Reliability</p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+            <a href="mailto:careersforankurmisra@gmail.com" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-lg font-medium text-sm hover:opacity-90 transition shadow-lg shadow-indigo-500/10">Get in Touch</a>
+            <a href="https://www.linkedin.com/in/data-engg-ankur-misra" target="_blank" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg font-medium text-sm border border-slate-700 transition flex items-center gap-2">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </header>
+
+    <!-- Core Stack -->
+    <section id="skills" class="py-20 px-6 border-t border-slate-800 bg-slate-900/50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold mb-12 flex items-center gap-3">
+                <span class="text-sky-400 font-mono text-xl">01.</span> Core Stack & Expert Competencies
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <div class="w-10 h-10 bg-sky-500/10 rounded-lg flex items-center justify-center text-sky-400 mb-4"><i class="fas fa-database text-lg"></i></div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-200">Data Engineering</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Advanced PySpark, Spark SQL, ETL/ELT optimization, and high-volume data modeling.</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <div class="w-10 h-10 bg-indigo-500/10 rounded-lg flex items-center justify-center text-indigo-400 mb-4"><i class="cloud-icon fas fa-cloud text-lg"></i></div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-200">Cloud & Production DevOps</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Azure Data Factory, Databricks, Fabric (DP-700), and automated CI/CD deployment infrastructure.</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <div class="w-10 h-10 bg-emerald-500/10 rounded-lg flex items-center justify-center text-emerald-400 mb-4"><i class="fas fa-brain text-lg"></i></div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-200">AI Engineering</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Azure AI Engineer (AI-102), LLM orchestrations, RAG architecture, and conversational interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold mb-12 flex items-center gap-3">
+            <span class="text-sky-400 font-mono text-xl">02.</span> Technical Projects
+        </h2>
+        <div class="space-y-8">
+            <!-- Project 1 (Your upcoming flagship repo placeholder) -->
+            <div class="p-8 bg-slate-900/40 border border-slate-800 hover:border-indigo-500/40 rounded-2xl transition group relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-indigo-500/10 text-indigo-400 text-xs font-mono font-bold px-3 py-1 rounded-bl-xl border-l border-b border-indigo-500/20">Active Build</div>
+                <span class="text-xs text-indigo-400 font-mono tracking-widest uppercase">Flagship Showcase</span>
+                <h3 class="text-2xl font-bold mt-1 mb-3 text-slate-100 group-hover:text-sky-400 transition">Autonomous Data-to-Action Engineering Pipeline</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    An advanced framework integrating traditional heavy data processing (PySpark/Azure Fabric) with Agentic AI logic. Focuses on orchestrating multi-step LLM reasoning directly downstream of optimized analytical pipelines to automate business operations autonomously.
+                </p>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-400">
+                    <span class="bg-slate-800 px-3 py-1 rounded">Agentic AI</span>
+                    <span class="bg-slate-800 px-3 py-1 rounded">Azure Fabric</span>
+                    <span class="bg-slate-800 px-3 py-1 rounded">Python</span>
+                    <span class="bg-slate-800 px-3 py-1 rounded">PySpark</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl hover:border-slate-700 transition">
+                    <h4 class="text-lg font-bold text-slate-200 mb-2">AI-Driven Intelligent Chatbot</h4>
+                    <p class="text-slate-400 text-sm mb-4">Engineered an AI-powered automated support interface resolving repetitive FAQs and seamlessly facilitating ticketing systems.</p>
+                    <div class="flex gap-2 text-xs font-mono text-slate-500">
+                        <span>Azure AI</span> • <span>NLP</span> • <span>Python</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl hover:border-slate-700 transition">
+                    <h4 class="text-lg font-bold text-slate-200 mb-2">Satellite Comm Research (IEEE Xplore)</h4>
+                    <p class="text-slate-400 text-sm mb-4">Published peer-reviewed engineering research outlining performance optimizations for microstrip patch antennas.</p>
+                    <div class="flex gap-2 text-xs font-mono text-slate-500">
+                        <span>Signal Processing</span> • <span>Electromagnetics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience / Metrics -->
+    <section id="experience" class="py-20 px-6 border-t border-slate-800 bg-slate-900/30">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold mb-12 flex items-center gap-3">
+                <span class="text-sky-400 font-mono text-xl">03.</span> Track Record & Industry Impact
+            </h2>
+            <div class="space-y-12 border-l-2 border-slate-800 pl-6 ml-4">
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-950"></div>
+                    <span class="text-sm font-mono text-sky-400 font-semibold">Tech Lead / Lead Data Engineer</span>
+                    <h3 class="text-xl font-bold text-slate-200 mt-1">The Math Company</h3>
+                    <ul class="text-sm text-slate-400 mt-3 space-y-2 list-disc pl-4 marker:text-sky-400 max-w-3xl">
+                        <li>Architected and scaled production-grade data workloads for global Fortune 500 supply chain & e-commerce clients.</li>
+                        <li>Overhauled heavy corporate ETL architectures—**slashing compute runtimes by 75%** and driving significant savings in cloud infrastructure spend.</li>
+                        <li>Eliminated manual bottleneck errors by moving fragmented processes into standardized, predictable, **automated CI/CD pipelines**.</li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-indigo-500 border-4 border-slate-950"></div>
+                    <span class="text-sm font-mono text-indigo-400 font-semibold">Senior Data Analyst & Developer</span>
+                    <h3 class="text-xl font-bold text-slate-200 mt-1">Altimetrik</h3>
+                    <ul class="text-sm text-slate-400 mt-3 space-y-2 list-disc pl-4 marker:text-indigo-400 max-w-3xl">
+                        <li>Developed high-priority corporate data assets tailored strictly to strict banking and premium luxury retail operational SLA constraints.</li>
+                        <li>Collaborated cross-functionally across multi-disciplinary domains to unlock bottleneck visibility via robust operational data sets.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-500 font-mono">
+        <p>© 2026 Ankur Misra. Crafted with Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
